@@ -1,5 +1,4 @@
 //scrape data from Linkedin Sales Navigator list
-
 listings = Array.from(document.getElementsByTagName("dl")).slice(0, 25)
 for(l of listings) {
     if(l.hasAttribute("role")) {
